@@ -137,3 +137,29 @@ img {
     }
 
 }
+
+@media screen and (max-width: 480px) {
+
+    main section:not(section:first-child){
+        margin-bottom: 0;
+        padding: 48px 0;
+    }
+
+    main .why-us {
+        background-color: #222222;
+    }
+
+    main .row{
+        flex-direction: column;
+    }
+
+    main .row .col{
+        width: 100%;
+    }
+
+    main .row .col:first-child,
+    main .steps .row .col:nth-child(2){
+        padding-bottom: 60px;
+    }
+    
+}
